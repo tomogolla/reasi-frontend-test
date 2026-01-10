@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, .poppins {
+    font-family: 'poppins', sans-serif;
+}
+
+span {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.bgGrid {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, grey 1px
+    transparent 1px), linear-gradient(to bottom, grey 1px transparent 1px);
+
+}
+
+button, 
+.button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+button:hover {
+    border-color: cornflowerblue;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+
+}
+
+.specialBtn {
+    border-color: aqua;
+
+}
+
+.specialBtnDark {
+    background: aqua;
+    color: white;
+}
+
+.specialBtn:hover {
+    border-color: aquamarine;
+}
+
+body {
+    background-color: bisque;
+}
