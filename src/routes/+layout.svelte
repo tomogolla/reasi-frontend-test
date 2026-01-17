@@ -1,17 +1,18 @@
 <script>
-	import Title from "$lib/title.svelte";
+	import Title from "$lib/components/sections/title.svelte";
+	import Navbar from "$lib/components/Navbar.svelte";
 	import '../styles/global.css'
 </script>
 
 
 <header>
-	<Title title="Reasi Guides "/>
+	<Navbar />
 </header>
 
-<main>
+<main style="padding-top: 4rem;">
 	<!-- page content -->
 
-	<slot></slot>
+	<slot />
 </main>
 
 
@@ -20,14 +21,10 @@
 </footer>
 
 <style>
-	header {
-		display: flex;
-		justify-content: center;
-	}
+	
 
 	main {
-		max-width: 960px;
-		margin: 20px auto;
+		
 	}
 
 	footer {
