@@ -24,7 +24,7 @@
 	
 
 	main {
-		
+		background-color: #fff;
 	}
 
 	footer {
